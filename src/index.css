@@ -349,6 +349,10 @@ body {
             @apply absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3;
         }
 
+        #f-right-leaf {
+            @apply object-contain absolute -top-10 right-0 md:w-fit w-1/4;
+        }
+
         #f-x {
             @apply absolute top-0 right-0 pointer-events-none hidden lg:block;
         }
